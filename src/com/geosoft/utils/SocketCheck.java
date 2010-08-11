@@ -27,7 +27,7 @@ public class SocketCheck {
 	    ServerSocket MyService=null;
 	    try {
 	        System.out.println("Opening a Server Connection ...");
-	        MyService = new ServerSocket(49100);
+	        MyService = new ServerSocket(49200);
 	        }
 	    catch (IOException e) {
 	           System.out.println(e);
